@@ -11,7 +11,6 @@ header {
 .navbar-brand {
     font-weight: bold;
     font-size: 1.5rem;
-    color: #EAC4D5;
     text-align: right;
 }
 
@@ -25,14 +24,15 @@ header {
     font-size: 2.2rem;
     margin: 20px 0 10px;
     font-weight: bold;
-    color: #333;
+    color: #f0ede7;
 }
 
 .sub-text {
     text-align: center;
-    color: #666;
+    color: #ffffff;
     margin-bottom: 30px;
     font-style: italic;
+    font-weight: 400;
 }
 
 .card {
@@ -67,7 +67,7 @@ header {
 
 .card-body h5 {
     font-weight: bold;
-    color: #809BCE;
+    color: rgb(82, 62, 62);
     text-align: justify;
 }
 
@@ -75,8 +75,21 @@ header {
     position: absolute;
     top: 10px;
     right: 10px;
-    background: #faabce;
-    color: white;
+    background: #f5e8d1;
+    color: rgb(49, 39, 39);
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-v2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #f5e8d1;
+    color: rgb(49, 39, 39);
     padding: 5px 10px;
     font-size: 0.8rem;
     border-radius: 8px;
@@ -88,14 +101,4 @@ header {
     .card-body p {
         display: none;
     }
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: white;
-    border-top: 1px solid #eee;
-    margin-top: 30px;
-    color:#B8E0D2;
-    font-weight: bold;
 }
