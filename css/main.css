@@ -40,7 +40,6 @@ main{
 
 /*section no 2*/
 .section-2{
-    min-height:400px;
     height: auto;
     width: 100%;
     background: #141414;
@@ -52,31 +51,16 @@ main{
     box-sizing:border-box;
 }
 
-.section-2 div{
-    height:auto;
-    width: 280px;
-    color:#fff;
-    margin:10px 10px;
-}
-
-.section-2 div h3{
-    padding-bottom: 10px;
-    font-family:  'Anton', sans-serif;
-    font-size:18px;
-    text-align:center;
-}
-
-.section-2 div p{
-    font-size: 15px;
-    font-family: 'Anton', sans-serif;
-    text-align:center;
+.section-2 img {
+    height: 200px;
 }
 
 /*section no 3*/
 .section-3{
-    background-image: url(../image/bg-priorities.jpg);
+    background-image: url(../image/bg-3.png);
     background-size:cover;
-    background-position:right;
+    background-position:bottom;
+    background-repeat: no-repeat;
     min-height: 800px;
     height:auto;
     width: 100%;
@@ -124,7 +108,7 @@ main{
     background: #171717;
     height:250px;
     width: 340px;
-    opacity: .7;
+    opacity: .8;
     color:#fff;
     display: flex;
     flex-direction: column;
@@ -155,7 +139,7 @@ main{
 /*section no 4*/
 .section-4{
     height:auto;
-    background: #000;
+    background: #141414;
     width: 100%;
     display:flex;
     flex-direction:column;
@@ -267,7 +251,7 @@ main{
 .section-6{
     height: 650px;
     width: 100%;
-    background: #000;
+    background: #0a0a0a;
     display: flex;
     flex-wrap:wrap;
 }
@@ -290,14 +274,14 @@ main{
 .section-6 div:first-of-type h2{
     font-size:35px;
     font-family:  'Anton', sans-serif;
-    color:var(--color-letra);
+    color: #c7c7c7;
     margin-bottom:20px;
     padding:0px;
 }
 
 .section-6 div:first-of-type p{
     font-size:20px;
-    color:var(--color-letra);
+    color: #cfcfcf;
 }
 
 .section-6 div:last-of-type{
@@ -321,9 +305,9 @@ main{
     min-height: 800px;
     height:auto;
     width: 100%;
-    background-image: url('../image/bg-buy.jpg');
+    background-image: url('../image/section-5.PNG');
     background-size: cover;
-    background-position:center;
+    background-position:top;
     display: flex;
     align-items: center;
     justify-content:flex-end;
@@ -399,7 +383,7 @@ main{
 
 /*section no 9*/
 .section-9{
-    background:#000;
+    background:#141414;
     display: flex;
     align-items:center;
     height:auto;
@@ -416,7 +400,7 @@ main{
     width: 80%;
     max-width:600px;
     text-align: center;
-    color:var(--color-letra);
+    color: #e2e2e2;
     font-family:  'Anton', sans-serif;
 }
 

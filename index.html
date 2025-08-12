@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fitness Gym</title>
+    <title>SugarCloud - Home</title>
     <link rel="shortcut icon" href="./icons/w-sport-2.png" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/global.css">
@@ -11,162 +11,120 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/media.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="">
 
    <input id="btnGoUp" class="btnGoUp" type="button">
 
-    <nav id="navElement" class="navegacion headerElementArray">
-        <div id="btnLogo" class="logo headerElementArray">
-            <img src="icons/logo-fitnessgym.png" alt="logo">
+    <nav class=" navbar navbar-expand-lg position-fixed z-3 w-100 px-3 ">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#"><img class="logo" src="./image/sugar-logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav text-white">
+                <li class="nav-item">
+                    <a class="nav-link active fw-bold text-white " aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold text-white" href="./menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold text-white" href="./contact.html">Contacto</a>
+                </li>
+            </ul>
+            </div>
         </div>
-        <input class="btnMenu btn" id="btnMenu" type="button">
-        <ul id="navbarList" class="headerElementArray">
-            <li id="btnHome" class="headerElementArray"><h4>HOME</h4></li>
-            <li id="btnWhyUs" class="headerElementArray"><h4>WHY US</h4></li>
-            <li id="btnShop" class="headerElementArray"><h4>SHOP</h4></li>
-            <li id="btnAbout" class="headerElementArray"><h4>ABOUT</h4></li>
-        </ul>
     </nav>
-    
+
    <header>
     <div class="headerContent headerElementArray">
         <div class="titleContainer headerElementArray">
-           <h2>SPORT</h2> 
-           <h2>SPORT</h2>
+            <img src="./image/logo-home.png" alt="">
         </div>
-        <p>
-            Hello there!, you can press "<b>activate</b>" to see the layout of the entire landing page!  
-        </p>
-         <input id="btnActivateLayout" type="button" class="btn" value="ACTIVATE">
     </div>
    </header>
 
    <main>
 
-       <section id="whyUs" class="section-1">
-           <div class="transitionElement transitionTiming transitionInit">
-              <h2>WHO ARE WE</h2>
-              <p>We are one of the best Gym's in America, we got the top #2 rank in 2019, make sure you will grow your body like we are growing this label with you!</p>
-           </div>
-       </section>
-
        <section class="section-2">
-           <div class="transitionReverseElement transitionTiming transitionReverseInit">
-               <h3>WE USE LESS WATER</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam officel, voluptatibus dicta sed autem ab illo.</p>
-           </div>
-           <div class="transitionReverseElement transitionTiming transitionReverseInit">
-               <h3>WE RESPECT NATURE</h3>
-               <p>Lorem ipsumb commodi, neque delectus, iste laboriosam, magni nesciunt necessitatibus vero repellendus eligendi?</p>
-           </div>
-           <div class="transitionReverseElement transitionTiming transitionReverseInit">
-                <h3>WE BELIEVE IN RECYCLING</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing delectus ut? Voluptas quaerat laudantium ratione.</p>
-           </div>
+            <img src="./image/section-2.png" class="transitionElement transitionTiming transitionInit" alt="">
        </section>
 
        <section class="section-3">
-           <div class="div-1 transitionElement transitionTiming transitionInit">
-               <h2>PRIORITIES GO FIRST</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ros unde, nihil aspernatur cupiditate. Ad, eiis ros unde, nihil aspernatur cupiditate. Ad, eiis ros unde, nihil aspernatur cupiditate. Ad, et inventore.</p>
-           </div>
            <div class="transitionReverseElement transitionTiming transitionReverseInit div-2">
                <div>
-                    <h2>COMPANY</h2>
-                   <i>"Lorem ipsorem aspernatur, ab impedit! Est, fugit enikkkm."</i>
+                    <h2 class="fw-bold">COMPANY</h2>
+                   <i>"Los postres más deliciosos, hechos con ingredientes frescos y un toque de amor."</i>
                     <span>
-                       <h2>ADAM JOHNS</h2>
-                       <h3>account manager</h3>
+                       <h2>ANA GÓMEZ</h2>
+                       <h3>repostera principal</h3>
                     </span> 
                </div>
                <div>
-                   <h2>COMPANY</h2>
-                   <i>"Lorem ipsorem aspernatur, ab impedit! Est, fugit enikkkm."</i>
+                   <h2>EMPRESA</h2>
+                   <i>"Cada bocado es una experiencia dulce que alegra el corazón y el paladar."</i>
                     <span>
-                       <h2>ADAM JOHNS</h2>
-                       <h3>account manager</h3>
+                       <h2>CARLOS PEREZ</h2>
+                       <h3>chef pastelero</h3>
                     </span>   
                </div>
                <div>
-                   <h2>COMPANY</h2>
-                   <i>"Lorem ipsorem aspernatur, ab impedit! Est, fugit enikkkm."</i>
+                   <h2>EMPRESA</h2>
+                   <i>"Transformamos momentos especiales en recuerdos dulces e inolvidables."</i>
                     <span>
-                       <h2>ADAM JOHNS</h2>
-                       <h3>account manager</h3>
+                       <h2>MARIA LOPEZ</h2>
+                       <h3>decoradora de pasteles</h3>
                     </span> 
                </div>
            </div>
        </section>
 
        <section id="shop" class="section-4">
-           <div class="first transitionElement transitionTiming transitionInit ">
-               <h2>WHAT EXACTLY DO WE DO</h2>
-               <p>Lorem ipssquam doloremque molestiae placeat, quia eius aperiam facilis eligendi praesentium qui consectetur nesciam facilis eligendi praesentium qui consectetur nesciunt non architecto omnis!</p>
-           </div>
            <div class="last transitionReverseElement transitionTiming transitionReverseInit">
                    <div>
-                          <img src="icons/w-sport-1.png" alt="sport.png">
-                           <h2>SPORT</h2>
-                           <p>Lorem iprum exercitationem modi. Numquam alias, quo architecto earum voluptas.</p>
+                          <img src="./image/utensils-solid-full (1).svg" alt="sport.png">
+                           <h2 class="fw-bold">Nosotros</h2>
+                           <p class="fw-bold">Endulzamos tu día con cada creación recién horneada.</p>
                    </div>
                    <div>
-                          <img src="icons/w-sport-2.png" alt="sport-2.png">
-                           <h2>SPORT</h2>
-                           <p>Lorem ipor nisi facer ipor nisi facer ipor nisi facere iusto laborum maiores.</p>
+                          <img src="./image/whiskey-glass-solid-full.svg" alt="sport-2.png">
+                           <h2 class="fw-bold">Secreto</h2>
+                           <p class="fw-bold">El secreto está en el cariño con el que horneamos cada postre.</p>
                    </div>
                    <div>
-                          <img src="icons/w-sport-3.png" alt="sport-3.png">
-                           <h2>SPORT</h2>
-                           <p>Lorem ip, aliquid aliquid aliquid facere nesciunt, molestiae deserunt.</p>
+                          <img src="./image/mug-hot-solid-full.svg" alt="sport-3.png">
+                           <h2 class="fw-bold">Cocina</h2>
+                           <p class="fw-bold">De nuestra cocina a tu mesa, frescura y sabor en cada bocado.</p>
                    </div>
             </div>
        </section>
        
-       <section class="section-5">
-           <div class="first transitionElement transitionTiming transitionInit ">
-               <p>Lorem ipsum dolor sitm vel cumque! Quia consequuntur laudantium deserunt incidunt veniam sit ratione dolor fantium deserunt incidunt veniam sit ratione dolo.</p>
-               <h2>David Johnson</h2>
-           </div>
-       </section>
-       
        <section class="section-6">
            <div class="first transitionReverseElement transitionTiming transitionReverseInit ">
-               <h2>NATURE IS ABOVE ALL</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat pdi, porro labore asperiores, quaerat assumenda vitae odio error.</p>
+               <h2 class="fw-bold">El mejor detalle!</h2>
+               <p class="fw-bold">Utilizamos ingredientes frescos y de la más alta calidad, cuidando cada detalle desde la mezcla hasta la decoración final. Desde tartas suaves y esponjosas, hasta cupcakes llenos de color y sabor, todo está hecho a mano con dedicación y pasión. Porque creemos que un buen postre no solo se saborea… también se siente.</p>
            </div>
            <div class="first transitionElement transitionTiming transitionInit ">
-               <img src="image/bg-nature.jpg" alt="nature.jpg">
+               <img src="image/section-4.png" alt="nature.jpg">
            </div>
        </section>
        
        <section class="section-7">
            <div class="transitionReverseElement transitionTiming transitionReverseInit ">
-             <h2>BUY YOUR TICKETS</h2>
-             <p>Lorem ipsum dolor sit amet, cous cum aut illo reiciendis voluptates. Quos saepe, voluptas ex nulla fugiat nobis.</p>
-             <input class="btn" type="button" value="HERE">
-           </div>
-       </section>
-       
-       <section class="section-8">
-           <div class="transitionElement transitionTiming transitionInit ">
-               <h2>Lorem ipsum dolor sit </h2>
-               <h3>Trips/16th March, 2020</h3>
-           </div>
-           <div class="transitionElement transitionTiming transitionInit ">
-               <h2>Lorem ipsum dolor sit </h2>
-               <h3>Trips/16th March, 2020</h3>
-           </div>
-           <div class="transitionElement transitionTiming transitionInit ">
-               <h2>Lorem ipsum dolor sit </h2>
-               <h3>Trips/16th March, 2020</h3>
+             <h2>Delicioso!</h2>
+             <p>Cada bocado cuenta una historia dulce, hecha con ingredientes frescos y un toque de amor en cada detalle.</p>
+             <input class="btn btn-secondary" type="button" value="HERE">
            </div>
        </section>
        
        <section class="section-9">
            <div class="transitionReverseElement transitionTiming transitionReverseInit ">
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatveniam cuit amet, consectetur adipisicing elit. Perspiciatveniam culpa repudiandae rerum po!</p>
-               <h2>David Johnson</h2>
+               <p>Horneamos con pasión para que cada creación sea tan única como la ocasión que celebras.</p>
+               <h2>Comensal</h2>
            </div>
        </section>
        
@@ -189,32 +147,12 @@
        </div>
        <div class="box-2 footerElementArray">
            <div class="footerElementArray">
-               <h2>ABOUT</h2>
-               <a href="#"><h4>Team</h4></a>
-               <a href="#"><h4>Join us</h4></a>
-               <a href="#"><h4>Ethic</h4></a>
-               <a href="#"><h4>Goals</h4></a>
-           </div>
-           <div class="footerElementArray">
-               <h2>ABOUT</h2>
-               <a href="#"><h4>Team</h4></a>
-               <a href="#"><h4>Join us</h4></a>
-               <a href="#"><h4>Ethic</h4></a>
-               <a href="#"><h4>Goals</h4></a>
-           </div>
-           <div class="footerElementArray">
-               <h2>ABOUT</h2>
-               <a href="#"><h4>Team</h4></a>
-               <a href="#"><h4>Join us</h4></a>
-               <a href="#"><h4>Ethic</h4></a>
-               <a href="#"><h4>Goals</h4></a>
+                <p>&copy; 2025 SugarCloud - Todos los derechos reservados</p>
            </div>
        </div>
    </footer>
 
 
-   <script src="./js/navbar.js"></script>
    <script src="./js/dynamics.js"></script>
-   <script src="./js/navLinks.js"></script>
 </body>
 </html>
