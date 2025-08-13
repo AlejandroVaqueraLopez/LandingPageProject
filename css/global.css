@@ -34,11 +34,11 @@
     width:60px;
     position: fixed;
     z-index:50;
-    right:13px;
-    bottom:13px;
-    background-color:var(--color-letra);
-    background-image: url("../icons/go-up-icon.png");
-    background-size:170%;
+    right:15px;
+    bottom:15px;
+    background:none;
+    background-image: url("../icons/go-up-icon.svg");
+    background-size:100%;
     background-position:center;
     border:none;
     display:none;
